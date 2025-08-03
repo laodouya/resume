@@ -1,13 +1,13 @@
 ---
 # Display name
-title: "Xu Jin"
+title: Xu Jin
 
 # Name pronunciation (optional)
 name_pronunciation: ""
 
 # Full name (for SEO)
-first_name: "Xu"
-last_name: "Jin"
+first_name: Xu
+last_name: Jin
 
 # Status emoji
 status:
@@ -16,235 +16,190 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Role/position/tagline
-role: "Senior Software Architect & Platform Lead"
+role: Senior Software Architect & Platform Lead
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: "GDDI Innovation Technology Co., Ltd."
+  - name: GDDI Innovation Technology Co., Ltd.
     url: ""
 
-# Short bio (displayed in user profile at end of posts)
-bio: "11+ years experience in Go, Python, and distributed systems architecture. Specialized in AI platforms, microservices, and enterprise solutions."
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+profiles:
+  - icon: at-symbol
+    url: 'mailto:job@laodouya.com'
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/laodouya
+    label: GitHub
+  - icon: brands/x
+    url: 'tel:+8615810540933'
+    label: Call Me
 
-# Social Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:job@laodouya.com'
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/laodouya
-  - icon: phone
-    icon_pack: fas
-    link: 'tel:+8615810540933'
-  - icon: cv
-    icon_pack: ai
-    link: uploads/xujin-resume.pdf
-
-# Interests
-interests:
-  - Distributed Systems Architecture
-  - AI/ML Platform Development
-  - Microservices & Cloud Native
-  - DevOps & Infrastructure
-  - Open Source Projects
-
-# Education
 education:
-  courses:
-    - course: "Master of Software Engineering"
-      institution: "Beijing Jiaotong University"
-      year: "2014"
-      details: |
-        - Internships: Tencent (Nov 2011 – Aug 2012), Baidu (Apr 2013 – Sep 2013)
-    - course: "Bachelor of Software Engineering"
-      institution: "Beihang University"
-      year: "2011"
-      details: |
-        - Awards: Second-Class Scholarship; 2nd Prize, Microsoft Imagination Cup; SRTP (Student Research Training Program)
+  - area: Master of Software Engineering
+    institution: Beijing Jiaotong University
+    date_start: 2011-09-01
+    date_end: 2014-07-01
+    summary: |
+      **Internships:** Tencent (Nov 2011 – Aug 2012), Baidu (Apr 2013 – Sep 2013)
+      
+      Gained extensive industry experience at leading Chinese technology companies during graduate studies, focusing on large-scale distributed systems and backend infrastructure.
+  - area: Bachelor of Software Engineering
+    institution: Beihang University
+    date_start: 2007-09-01
+    date_end: 2011-07-01
+    summary: |
+      **Awards:** Second-Class Scholarship; 2nd Prize, Microsoft Imagination Cup; SRTP (Student Research Training Program)
+      
+      Strong foundation in computer science fundamentals with recognition for academic excellence and innovation in software development competitions.
 
-# Skills
-skills:
-  - name: "Programming Languages"
-    items:
-      - name: "Go"
-        description: "9+ years experience"
-        percent: 95
-      - name: "Python"
-        description: "4+ years experience"
-        percent: 85
-      - name: "C/SQL"
-        description: "Proficient"
-        percent: 80
-
-  - name: "Backend & Infrastructure"
-    items:
-      - name: "Kubernetes"
-        description: "Container orchestration, custom CRDs"
-        percent: 90
-      - name: "Microservices"
-        description: "Gin, Beego, gRPC, Protobuf"
-        percent: 95
-      - name: "DevOps"
-        description: "GitLab CI, ArgoCD, Docker, Harbor"
-        percent: 88
-
-  - name: "Data & Messaging"
-    items:
-      - name: "Databases"
-        description: "PostgreSQL, MySQL, MongoDB, Redis, ClickHouse"
-        percent: 85
-      - name: "Message Queues"
-        description: "Kafka, RabbitMQ, APISIX"
-        percent: 80
-      - name: "Monitoring"
-        description: "Prometheus, logging systems"
-        percent: 75
-
-# Work Experience
-experience:
-  - title: "Head of Software Platform, Architect"
-    company: "GDDI Innovation Technology Co., Ltd."
-    company_url: ""
-    company_logo: ""
-    location: "Shenzhen, China"
-    date_start: "2023-10-01"
-    date_end: ""
-    description: |
+work:
+  - position: Head of Software Platform, Architect
+    company_name: GDDI Innovation Technology Co., Ltd.
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-10-01
+    date_end: ''
+    summary: |2-
       Leading architecture and development of dual AI platforms (training + annotation) serving 20+ enterprise customers.
-
-      **Key Achievements:**
-      - Architected microservices platform using Go, Kubernetes, and custom CRDs for AI training workflows
-      - Developed GPU scheduling middleware with custom nvidia-k8s-plugin for optimized workload allocation
-      - Built comprehensive offline licensing system supporting multiple authorization modes
-      - Established CI/CD pipeline with ArgoCD, automated testing framework, and quality assurance processes
+      
+      **AI Training & Annotation Platform Architecture:**
+      - Architected complete redesign using microservices with Go (Gin/Beego/Gorm), Protobuf, and Kubernetes
+      - Built custom Kubernetes scheduling middleware with nvidia-k8s-plugin for GPU optimization
+      - Developed custom resource definitions (CRDs) for multi-pod task management
+      
+      **Enterprise Deployment & Licensing:**
       - Successfully deployed to 20+ enterprise customers with complex multi-GPU configurations
-
-  - title: "System Architect, InfoSec Department"
-    company: "Xunlei Limited"
-    company_url: ""
-    company_logo: ""
-    location: "Shenzhen, China"
-    date_start: "2020-04-01"
-    date_end: "2023-06-01"
-    description: |
+      - Designed comprehensive offline licensing system with year/device/model/video-stream authorization
+      - Integrated custom SSO solutions and provided hardware consultation
+      
+      **Engineering Leadership:**
+      - Established comprehensive CI testing framework and ArgoCD-based deployment system
+      - Led cross-functional team (backend/frontend/QA/DevOps) coordination
+  - position: System Architect, InfoSec Department
+    company_name: Xunlei Limited
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-04-01
+    date_end: 2023-06-01
+    summary: |2-
       Built and scaled commercial SaaS platform generating ¥500K monthly revenue with 20+ enterprise clients.
-
-      **Key Achievements:**
-      - Architected multi-tenant SaaS platform with RBAC, billing, and automated account management
-      - Improved reviewer accuracy from 88% to 98% and reduced wait time from 15 to 2 minutes
-      - Developed multilingual SDKs with RSA encryption for 20+ enterprise client integrations
-      - Built AI model service pipeline, reducing GPU pressure by 80% through optimization strategies
-      - Implemented comprehensive security measures including encrypted communications and financial transaction systems
-
-  - title: "Tech Manager"
-    company: "Shanxian Daojia Grocery App"
-    company_url: ""
-    company_logo: ""
-    location: "China"
-    date_start: "2019-11-01"
-    date_end: "2020-04-01"
-    description: |
-      Built complete backend infrastructure from scratch, leading 6-member development team.
-
-      **Key Achievements:**
-      - Architected scalable microservices for SKU management, payment integration, and delivery logistics
-      - Implemented WeChat/Alipay payment integration and rider dispatch algorithms
-      - Led cross-functional team coordination and technical project management
-
-  - title: "Core Developer"
-    company: "CovenantSQL (Open Source Blockchain Database)"
-    company_url: ""
-    company_logo: ""
-    location: "Remote"
-    date_start: "2018-05-01"
-    date_end: "2019-11-01"
-    description: |
-      Core contributor to decentralized SQL database with 1.5k+ GitHub stars.
-
-      **Key Achievements:**
-      - Architected two-layer blockchain structure with main chain settlement and sub-chain storage
-      - Developed comprehensive SDK ecosystem: CLI tools, Python/Java drivers, and client libraries
-      - Built GNTE network simulation tool that reached GitHub Trending
-      - Conducted distributed consistency testing and performance benchmarking
-
-  - title: "Infrastructure Engineer"
-    company: "Meitu Inc."
-    company_url: ""
-    company_logo: ""
-    location: "Shenzhen, China"
-    date_start: "2016-01-01"
-    date_end: "2018-04-01"
-    description: |
+      
+      **Commercial SaaS Platform:**
+      - Architected multi-tenant platform with RBAC permissions, billing, and account management
+      - Built microservices using Go-Gin, PostgreSQL/GORM, Redis, Kafka, RabbitMQ, Etcd
+      - Implemented APISIX gateway plugins for authentication and service routing
+      
+      **Performance & Quality Improvements:**
+      - Improved reviewer accuracy from 88% to 98% and reduced wait time from 15min to 2min
+      - Redesigned task assignment workflow with state machine control
+      - Added comprehensive Prometheus monitoring for performance optimization
+      
+      **SDK Development & Client Integration:**
+      - Developed multilingual SDKs with RSA encryption for 20+ enterprise clients
+      - Successfully deployed and conducted integration testing for 10+ production clients
+  - position: Core Developer
+    company_name: CovenantSQL (Open Source Blockchain Database)
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-05-01
+    date_end: 2019-11-01
+    summary: |2-
+      Core contributor to decentralized SQL database with blockchain characteristics (1.5k+ GitHub stars).
+      
+      **Architecture & Development:**
+      - Architected two-layer structure with main chain settlement and sub-chain storage
+      - Developed comprehensive SDK ecosystem: CQL CLI tool, Python-driver, Java-driver
+      - Built GNTE (Global Network Topology Emulator) that reached GitHub Trending
+      - Conducted distributed linear consistency testing and performance benchmarking
+  - position: Tech Manager
+    company_name: Shanxian Daojia Grocery App
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-11-01
+    date_end: 2020-04-01
+    summary: |2-
+      Built complete backend infrastructure from scratch using Go, leading a 6-member team.
+      
+      **Core Infrastructure:**
+      - Architected and implemented SKU management, WeChat/Alipay payment integration
+      - Developed rider dispatch algorithms, billing system, and promotional coupon engine
+      - Designed scalable microservices architecture for real-time order processing
+  - position: Infrastructure Engineer
+    company_name: Meitu Inc.
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2018-04-01
+    summary: |2-
       Developed core infrastructure libraries and supported live streaming platform.
-
-      **Key Achievements:**
-      - Developed Go libraries for Etcd operations, logging, and standardized storage formats
-      - Built RTMP transcoding services using FFmpeg optimization for live streaming
-      - Provided architectural consulting and technology research for product teams
-
-  - title: "Backend Developer"
-    company: "Xunlei Limited"
-    company_url: ""
-    company_logo: ""
-    location: "China"
-    date_start: "2014-07-01"
-    date_end: "2015-10-01"
-    description: |
+      
+      **Infrastructure Development:**
+      - Developed Go libraries: Etcd wrapper, comprehensive logging library
+      - Built RTMP transcoding services using FFmpeg optimization
+      - Spearheaded adoption of Git workflows, Go dependency management, and CI processes
+  - position: Backend Developer
+    company_name: Xunlei Limited
+    company_url: ''
+    company_logo: ''
+    date_start: 2014-07-01
+    date_end: 2015-10-01
+    summary: |2-
       Developed high-performance P2P services and CDN infrastructure.
-
-      **Key Achievements:**
-      - Built BT-Box torrent indexing service for P2P content discovery
+      
+      **P2P & CDN Systems:**
+      - Built BT-Box torrent indexing service for content discovery
       - Developed distributed CDN client based on Nginx architecture
       - Implemented backend services for membership and content distribution
 
-# Projects
-projects:
-  - title: "chDB (Python Library)"
-    url: ""
-    summary: "Active contributor to chDB-io project enabling SQL-like queries on flat files (CSV, Parquet) directly in Python, based on ClickHouse engine."
-    tags:
-      - "Python"
-      - "SQL"
-      - "Analytics"
-      - "Open Source"
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Programming Languages
+    items:
+      - name: Go
+        description: '9+ years experience in microservices, distributed systems'
+        percent: 95
+        icon: devicon/go
+      - name: Python
+        description: '4+ years in AI/ML integration, automation'
+        percent: 85
+        icon: devicon/python
+      - name: C/SQL
+        description: 'Systems programming and database design'
+        percent: 80
+        icon: devicon/c
+  - name: Infrastructure & Cloud
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Kubernetes
+        description: 'Container orchestration, custom CRDs, GPU scheduling'
+        percent: 90
+        icon: devicon/kubernetes
+      - name: Docker & CI/CD
+        description: 'GitLab CI, ArgoCD, Harbor, automated deployment'
+        percent: 88
+        icon: devicon/docker
+      - name: Databases
+        description: 'PostgreSQL, MySQL, MongoDB, Redis, ClickHouse'
+        percent: 85
+        icon: devicon/postgresql
 
-  - title: "CovenantSQL"
-    url: ""
-    summary: "Major contributor to open-source blockchain database project (1.5k+ GitHub stars). Developed multiple SDK implementations and tooling ecosystem."
-    tags:
-      - "Blockchain"
-      - "Database"
-      - "Go"
-      - "Distributed Systems"
-
-  - title: "GNTE (Global Network Topology Emulator)"
-    url: ""
-    summary: "Created network simulation tool that reached GitHub Trending. Used for distributed system testing and network latency simulation."
-    tags:
-      - "Network Simulation"
-      - "Distributed Testing"
-      - "Go"
-
-# Contact details
-address:
-  street: ""
-  city: "Shenzhen"
-  region: "Guangdong"
-  postcode: ""
-  country: "China"
-
-coordinates:
-  latitude: "22.5431"
-  longitude: "114.0579"
-
-phone: "+86 15810540933"
-email: "job@laodouya.com"
+languages:
+  - name: English
+    percent: 85
+  - name: Chinese
+    percent: 100
 ---
+
+I am a Senior Software Architect with **11+ years of experience** specializing in distributed systems, AI/ML platforms, and enterprise solutions. Currently leading platform architecture at **GDDI Innovation Technology**, focusing on AI training infrastructure and enterprise deployment solutions for 20+ customers.
+
+**Core Expertise:** Go (9+ years), Python (4+ years), Kubernetes, microservices architecture, AI platform development, and open source leadership. Proven track record of architecting systems serving millions of users and generating significant revenue.
+
+**Notable Achievement:** Major contributor to CovenantSQL blockchain database (1.5k+ GitHub stars) and creator of GNTE network simulation tool that reached GitHub Trending.
 
 Senior Software Architect and Platform Lead with 11+ years of experience specializing in distributed systems, AI/ML platforms, and enterprise-grade solutions. Proven track record of architecting and scaling systems serving millions of users and generating significant revenue.
 

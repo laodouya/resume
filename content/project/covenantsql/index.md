@@ -31,6 +31,6 @@ Core contributor to decentralized SQL database with blockchain characteristics (
 ## Key Achievements
 
 - **Architecture Design**: Developed two-layer blockchain structure with main chain settlement and sub-chain storage
-- **SDK Development**: Created comprehensive SDK ecosystem including CQL command-line tool, Python-driver, Java-driver, and client libraries  
+- **SDK Development**: Created comprehensive SDK ecosystem including CQL command-line tool, Python-driver, Java-driver, and client libraries
 - **Performance Testing**: Conducted distributed linear consistency testing and performance benchmarking
 - **Community Impact**: Project gained significant traction with 1.5k+ GitHub stars and active developer community

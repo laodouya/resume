@@ -3,7 +3,7 @@ title: "chDB (Python Library)"
 summary: "Active contributor to chDB-io project enabling SQL-like queries on flat files (CSV, Parquet, etc.) directly in Python, based on ClickHouse engine."
 tags:
   - Python
-  - SQL  
+  - SQL
   - Analytics
   - Open Source
 date: "2023-01-01T00:00:00Z"
@@ -35,6 +35,6 @@ Early contributor to the chDB-io project, enabling SQL-like queries on flat file
 ## Key Contributions
 
 - Enhanced Python bindings for ClickHouse engine
-- Improved file format support and query performance  
+- Improved file format support and query performance
 - Documentation and example improvements
 - Community support and issue resolution
