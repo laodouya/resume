@@ -41,6 +41,9 @@ social:
   - icon: phone
     icon_pack: fas
     link: 'tel:+8615810540933'
+  - icon: cv
+    icon_pack: ai
+    link: uploads/xujin-resume.pdf
 
 # Interests
 interests:
@@ -113,10 +116,10 @@ experience:
     date_end: ""
     description: |
       Leading architecture and development of dual AI platforms (training + annotation) serving 20+ enterprise customers.
-      
+
       **Key Achievements:**
       - Architected microservices platform using Go, Kubernetes, and custom CRDs for AI training workflows
-      - Developed GPU scheduling middleware with custom nvidia-k8s-plugin for optimized workload allocation  
+      - Developed GPU scheduling middleware with custom nvidia-k8s-plugin for optimized workload allocation
       - Built comprehensive offline licensing system supporting multiple authorization modes
       - Established CI/CD pipeline with ArgoCD, automated testing framework, and quality assurance processes
       - Successfully deployed to 20+ enterprise customers with complex multi-GPU configurations
@@ -130,7 +133,7 @@ experience:
     date_end: "2023-06-01"
     description: |
       Built and scaled commercial SaaS platform generating ¥500K monthly revenue with 20+ enterprise clients.
-      
+
       **Key Achievements:**
       - Architected multi-tenant SaaS platform with RBAC, billing, and automated account management
       - Improved reviewer accuracy from 88% to 98% and reduced wait time from 15 to 2 minutes
@@ -147,7 +150,7 @@ experience:
     date_end: "2020-04-01"
     description: |
       Built complete backend infrastructure from scratch, leading 6-member development team.
-      
+
       **Key Achievements:**
       - Architected scalable microservices for SKU management, payment integration, and delivery logistics
       - Implemented WeChat/Alipay payment integration and rider dispatch algorithms
@@ -162,7 +165,7 @@ experience:
     date_end: "2019-11-01"
     description: |
       Core contributor to decentralized SQL database with 1.5k+ GitHub stars.
-      
+
       **Key Achievements:**
       - Architected two-layer blockchain structure with main chain settlement and sub-chain storage
       - Developed comprehensive SDK ecosystem: CLI tools, Python/Java drivers, and client libraries
@@ -178,7 +181,7 @@ experience:
     date_end: "2018-04-01"
     description: |
       Developed core infrastructure libraries and supported live streaming platform.
-      
+
       **Key Achievements:**
       - Developed Go libraries for Etcd operations, logging, and standardized storage formats
       - Built RTMP transcoding services using FFmpeg optimization for live streaming
@@ -193,7 +196,7 @@ experience:
     date_end: "2015-10-01"
     description: |
       Developed high-performance P2P services and CDN infrastructure.
-      
+
       **Key Achievements:**
       - Built BT-Box torrent indexing service for P2P content discovery
       - Developed distributed CDN client based on Nginx architecture

@@ -2,44 +2,42 @@
 baseURL: 'https://xujin.work'
 languageCode: 'en-us'
 title: 'Xu Jin - Resume'
-theme: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+
+# 主题配置 - 使用HugoBlox Resume模块
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 
 # 缓存配置 - GitHub Pages部署需要
 caches:
   images:
     dir: :cacheDir/images
 
-# 主题配置
-module:
-  imports:
-    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
-
 # 基础参数
 params:
   # 主题相关配置
   theme: resume
-  color_theme: forest
-  font: native
-
-  # 联系信息
-  name: "Xu Jin"
-  role: "Senior Software Architect & Platform Lead"
-  organizations:
-    - name: "GDDI Innovation Technology Co., Ltd."
-      url: ""
-  bio: "11+ years experience in Go, Python, and distributed systems architecture. Specialized in AI platforms, microservices, and enterprise solutions."
-
-  # 社交链接
-  profiles:
-    - icon: envelope
-      url: "mailto:job@laodouya.com"
-      label: "E-mail Me"
-    - icon: brands/github
-      url: "https://github.com/laodouya"
-      label: "GitHub"
-    - icon: phone
-      url: "tel:+8615810540933"
-      label: "Call Me"
+  color_theme: minimal
+  font: minimal
+  font_size: M
+  
+  # 隐私设置
+  privacy_pack: true
+  
+  # 编辑页面
+  edit_page:
+    repo_url: 'https://github.com/laodouya/resume'
+    content_dir: ''
+    repo_branch: main
+    editable:
+      page: false
+      post: false
+      book: false
+  
+  # 社交链接图标
+  icon:
+    pack:
+      ai: true
 
 # 菜单配置
 menu:
@@ -51,6 +49,17 @@ menu:
 # 构建配置
 build:
   writeStats: true
+
+# Markdown配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
 
 # 安全配置
 security:
@@ -64,3 +73,6 @@ security:
       - (?i)GET|POST
     urls:
       - .*
+
+# 忽略警告
+ignoreLogs: ['warning-goldmark-raw-html']
