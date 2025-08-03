@@ -1,0 +1,66 @@
+# Hugo configuration file
+baseURL: 'https://yourdomain.com' # 你需要替换为你的实际域名
+languageCode: 'en-us'
+title: 'Xu Jin - Resume'
+theme: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+
+# 缓存配置 - GitHub Pages部署需要
+caches:
+  images:
+    dir: :cacheDir/images
+
+# 主题配置
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+
+# 基础参数
+params:
+  # 主题相关配置
+  theme: resume
+  color_theme: forest
+  font: native
+
+  # 联系信息
+  name: "Xu Jin"
+  role: "Senior Software Architect & Platform Lead"
+  organizations:
+    - name: "GDDI Innovation Technology Co., Ltd."
+      url: ""
+  bio: "11+ years experience in Go, Python, and distributed systems architecture. Specialized in AI platforms, microservices, and enterprise solutions."
+
+  # 社交链接
+  profiles:
+    - icon: envelope
+      url: "mailto:job@laodouya.com"
+      label: "E-mail Me"
+    - icon: brands/github
+      url: "https://github.com/laodouya"
+      label: "GitHub"
+    - icon: phone
+      url: "tel:+8615810540933"
+      label: "Call Me"
+
+# 菜单配置
+menu:
+  main:
+    - name: 'Home'
+      url: '/'
+      weight: 10
+
+# 构建配置
+build:
+  writeStats: true
+
+# 安全配置
+security:
+  enableInlineShortcodes: true
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*
