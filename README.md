@@ -1,118 +1,38 @@
-# Xu Jin - Personal Resume Website
+# 徐进的个人简历
 
-这是一个基于Hugo和Hugo Blox主题构建的个人简历网站，部署在GitHub Pages上。
+这是徐进的个人简历网站和文档。
 
-## 项目结构
+## 📄 查看简历
 
-```
-Resume/
-├── hugo.yaml              # Hugo主配置文件
-├── go.mod                 # Go模块依赖
-├── content/
-│   ├── _index.md          # 主页内容
-│   └── authors/admin/     # 个人资料配置
-├── assets/media/          # 媒体文件（图片、图标等）
-├── static/uploads/        # 静态文件（如PDF简历）
-├── .github/workflows/     # GitHub Actions自动部署配置
-└── README.md             # 项目说明
+### 在线简历网站
+🌐 **主要访问地址：** https://xujin.work
 
-```
+### PDF 简历下载
+📁 **PDF下载：** [点击下载 PDF 简历](https://xujin.work/uploads/xujin-resume.pdf)
 
-## 本地开发
+适合打印和邮件发送的PDF格式简历。
 
-1. 安装Hugo（需要extended版本）:
-   ```bash
-   # macOS
-   brew install hugo
+### 备用查看方式
+📝 **Markdown版本：** [xuijin-resume.md](./xuijin-resume.md)
 
-   # 或下载二进制文件
-   # https://github.com/gohugoio/hugo/releases
-   ```
+如果网站无法访问，可以直接查看此仓库中的Markdown格式简历文件。GitHub会自动渲染，阅读体验良好。
 
-2. 安装Go依赖:
-   ```bash
-   hugo mod tidy
-   ```
+## 👨‍💻 关于徐进
 
-3. 本地预览:
-   ```bash
-   hugo server
-   ```
+- **工作经验：** 11年 | **主要技术栈：** Go (9年), Python (4年)
+- **当前职位：** 共达地创新技术有限公司 - 软件平台负责人、架构师
+- **联系方式：** job@laodouya.com
+- **GitHub：** [@laodouya](https://github.com/laodouya)
 
-   访问 http://localhost:1313 查看网站
+专注于分布式系统架构、AI平台开发、微服务架构设计，有丰富的技术团队管理和企业级产品交付经验。
 
-## 部署到GitHub Pages
+## 🔗 快速链接
 
-### 步骤1: 创建GitHub仓库
-1. 在GitHub上创建一个新仓库
-2. 将代码推送到GitHub
+- 🌐 [在线简历](https://xujin.work)
+- 📄 [PDF简历下载](https://xujin.work/uploads/xujin-resume.pdf)
+- 📝 [Markdown简历](./xuijin-resume.md)
+- 💼 [GitHub主页](https://github.com/laodouya)
 
-### 步骤2: 启用GitHub Pages
-1. 进入仓库设置页面
-2. 找到"Pages"设置
-3. 将Source设置为"GitHub Actions"
+---
 
-### 步骤3: 自动部署
-每次推送到main分支时，GitHub Actions会自动构建和部署网站。
-
-## 自定义域名设置
-
-如果你有自己的域名，需要进行以下配置：
-
-### 1. 更新Hugo配置
-在 `hugo.yaml` 中修改 `baseURL`:
-```yaml
-baseURL: 'https://yourdomain.com'
-```
-
-### 2. DNS配置
-在你的域名服务商处添加以下DNS记录：
-- CNAME记录: `www` -> `yourusername.github.io`
-- A记录: `@` -> GitHub Pages IP地址
-
-### 3. GitHub Pages域名设置
-在仓库设置的Pages页面中，添加你的自定义域名。
-
-## 内容修改
-
-### 个人信息
-编辑 `content/authors/admin/_index.md` 文件来修改个人信息、技能、工作经历等。
-
-### 主页布局
-编辑 `content/_index.md` 文件来调整主页的区块布局和内容。
-
-### 添加PDF简历
-将PDF文件放在 `static/uploads/` 目录下，文件名为 `resume.pdf`。
-
-## 主题自定义
-
-这个项目使用Hugo Blox的resume主题。你可以通过以下方式自定义：
-
-1. 修改 `hugo.yaml` 中的主题配置
-2. 在 `assets/` 目录下添加自定义CSS
-3. 调整配色方案和字体
-
-## 支持的功能
-
-- ✅ 响应式设计
-- ✅ 深色/浅色主题切换
-- ✅ 联系表单
-- ✅ 社交媒体链接
-- ✅ PDF简历下载
-- ✅ SEO优化
-- ✅ 自动部署
-
-## 故障排除
-
-如果遇到问题，请检查：
-1. Hugo版本是否为extended版本
-2. Go模块依赖是否正确安装
-3. GitHub Actions工作流是否成功运行
-4. DNS配置是否正确（如使用自定义域名）
-
-## 技术栈
-
-- Hugo (静态网站生成器)
-- Hugo Blox (主题框架)
-- GitHub Actions (CI/CD)
-- GitHub Pages (托管服务)
+*本简历网站基于Hugo构建，托管在GitHub Pages，源码开放。*
