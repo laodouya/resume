@@ -1,4 +1,4 @@
-module github.com/yourusername/resume
+module github.com/laodouya/resume
 
 go 1.22
 

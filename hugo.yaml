@@ -1,5 +1,5 @@
 # Hugo configuration file
-baseURL: 'https://yourdomain.com' # 你需要替换为你的实际域名
+baseURL: 'https://xujin.work'
 languageCode: 'en-us'
 title: 'Xu Jin - Resume'
 theme: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
